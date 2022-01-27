@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.norska.uar</groupId>
   <artifactId>UltimateAutoRestartAPI</artifactId>
-  <version>1</version>
+  <version>50b</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
