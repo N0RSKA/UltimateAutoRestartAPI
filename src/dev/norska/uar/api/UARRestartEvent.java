@@ -4,27 +4,16 @@ import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class UltimateAutoRestartAutoDelayEvent extends Event implements Cancellable {
+public class UARRestartEvent extends Event implements Cancellable {
     private boolean isCancelled;
     private static final HandlerList HANDLERS;
-    
-    private int delayedBySeconds;
     
     static {
         HANDLERS = new HandlerList();
     }
     
-    public UltimateAutoRestartAutoDelayEvent(int delayedBySeconds1) {
-    	this.delayedBySeconds = delayedBySeconds1;
+    public UARRestartEvent() {
         this.isCancelled = false;
-    }
-    
-    public int getDelayedBySeconds() {
-    	return delayedBySeconds;
-    }
-    
-    public void setDelayedBySeconds(int delayedBySeconds1) {
-    	delayedBySeconds = delayedBySeconds1;
     }
     
     public boolean isCancelled() {
@@ -36,10 +25,10 @@ public class UltimateAutoRestartAutoDelayEvent extends Event implements Cancella
     }
     
     public HandlerList getHandlers() {
-        return UltimateAutoRestartAutoDelayEvent.HANDLERS;
+        return UARRestartEvent.HANDLERS;
     }
     
     public static HandlerList getHandlerList() {
-        return UltimateAutoRestartAutoDelayEvent.HANDLERS;
+        return UARRestartEvent.HANDLERS;
     }
 }

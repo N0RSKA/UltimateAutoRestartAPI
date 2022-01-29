@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.norska.uar</groupId>
   <artifactId>UltimateAutoRestartAPI</artifactId>
-  <version>50b</version>
+  <version>51</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -32,7 +32,7 @@
         <artifactId>spigot-api</artifactId>
         <version>1.18-R0.1-SNAPSHOT</version>
         <scope>provided</scope>
-    </dependency>	
+    </dependency>
 	<dependency>
 		<groupId>org.projectlombok</groupId>
 		<artifactId>lombok</artifactId>

@@ -2,7 +2,7 @@ package dev.norska.uar.api;
 
 import dev.norska.uar.UltimateAutoRestart;
 
-public class UltimateAutoRestartAPI {
+public class UARAPI {
 	
 	public static int getInterval(UltimateAutoRestart instance) {
 		return 0;

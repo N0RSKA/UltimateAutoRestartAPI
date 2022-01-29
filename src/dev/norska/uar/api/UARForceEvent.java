@@ -4,7 +4,7 @@ import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class UltimateAutoRestartForceEvent extends Event implements Cancellable {
+public class UARForceEvent extends Event implements Cancellable {
     private boolean isCancelled;
     private int seconds;
     private static final HandlerList HANDLERS;
@@ -13,7 +13,7 @@ public class UltimateAutoRestartForceEvent extends Event implements Cancellable 
         HANDLERS = new HandlerList();
     }
     
-    public UltimateAutoRestartForceEvent(int seconds1) {
+    public UARForceEvent(int seconds1) {
         this.isCancelled = false;
         this.seconds = seconds1;
     }
@@ -35,10 +35,10 @@ public class UltimateAutoRestartForceEvent extends Event implements Cancellable 
     }
     
     public HandlerList getHandlers() {
-        return UltimateAutoRestartForceEvent.HANDLERS;
+        return UARForceEvent.HANDLERS;
     }
     
     public static HandlerList getHandlerList() {
-        return UltimateAutoRestartForceEvent.HANDLERS;
+        return UARForceEvent.HANDLERS;
     }
 }
