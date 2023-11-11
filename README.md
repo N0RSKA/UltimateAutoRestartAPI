@@ -1,7 +1,7 @@
-# UltimateAutoRestartAPI [![](https://jitpack.io/v/N0RSKA/RedeemableCodesAPI.svg)](https://jitpack.io/#N0RSKA/RedeemableCodesAPI)
+# UltimateAutoRestartAPI [![](https://jitpack.io/v/N0RSKA/UltimateAutoRestartAPI.svg)](https://jitpack.io/#N0RSKA/UltimateAutoRestartAPI)
 
-Start using the API: https://jitpack.io/#N0RSKA/RedeemableCodesAPI/
+Start using the API: https://jitpack.io/#N0RSKA/UltimateAutoRestartAPI/
 
-JavaDocs: https://javadocs.norska.dev/rc/
+JavaDocs: https://javadocs.norska.dev/uar/
 
 Discord: https://norska.dev/discord/
