@@ -18,7 +18,12 @@ API for integrating with the UltimateAutoRestart plugin.
     <dependency>
         <groupId>com.github.N0RSKA</groupId>
         <artifactId>UltimateAutoRestartAPI</artifactId>
-        <version>Tag</version>
+        <version>REPLACE WITH JITPACK VERSION</version>
     </dependency>
 </dependencies>
 ```
+
+### Links
+- **API Usage**: [JitPack](https://jitpack.io/#N0RSKA/UltimateAutoRestartAPI/)
+- **Documentation**: [JavaDocs](https://javadocs.norska.dev/uar/)
+- **Support**: [Discord](https://norska.dev/discord/)
