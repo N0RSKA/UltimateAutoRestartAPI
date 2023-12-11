@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # UltimateAutoRestartAPI
+=======
+# UltimateAutoRestartAPI 
+>>>>>>> 9de9b234609ef623e56222d9dbe5c1a2b575c4a5
 ![JitPack](https://jitpack.io/v/N0RSKA/UltimateAutoRestartAPI.svg)
 
 API for integrating with the UltimateAutoRestart plugin.
